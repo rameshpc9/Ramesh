@@ -16,6 +16,7 @@ def plot_line_plot(data, x_column, y_column, x_label, y_label, title):
     plt.xlabel(x_label)
     plt.ylabel(y_label)
     plt.title(title)
+    plt.xticks(rotation=45)  # Rotate the x-axis labels by 45 degrees
     plt.grid(True)  # Add grid lines
     plt.show()
 
